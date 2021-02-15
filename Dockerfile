@@ -1,3 +1,3 @@
-FROM alpine:3.12.3
+FROM alpine:3.13.1
 
-RUN ["apk", "add", "--no-cache", "openssh-client=8.3_p1-r1"]
+RUN ["apk", "add", "--no-cache", "openssh-client=8.4_p1-r2"]
